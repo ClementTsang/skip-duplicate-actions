@@ -8,6 +8,9 @@ on: # Rebuild any PRs and main branch changes
     branches:
       - master
 
+permissions:
+  contents: read
+
 jobs:
   build: # Make sure build/ci work properly
     runs-on: ubuntu-latest
