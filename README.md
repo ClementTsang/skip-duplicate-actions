@@ -11,6 +11,10 @@
 All of those features help to save time and costs; especially for long-running workflows.
 You can choose any subset of those features.
 
+---
+
+This fork bumps the node version and pins some things in tests. 
+
 ## Skip duplicate workflow runs
 
 If you work with feature branches, then you might see lots of _duplicate workflow runs_.
